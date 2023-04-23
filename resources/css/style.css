@@ -134,6 +134,34 @@ main {
   margin-top: 3rem;
 }
 
+.container__social {
+  position: absolute;
+  border: 1px solid;
+}
+
+#socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-github {
+  color: #169b99;
+}
+
+.fa-linkedin {
+  color: #169b99;
+}
+
+.fa-person-drowning {
+  color: #169b99;
+}
+
+.fa-paper-plane {
+  color: #169b99;
+}
+
+
+
 
 /* footer */
 #footer {

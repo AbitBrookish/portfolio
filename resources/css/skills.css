@@ -23,3 +23,8 @@ li {
   align-items: center;
 }
 
+#skills__header {
+  font-size: 3.75rem;
+  letter-spacing: 0.25rem;
+}
+

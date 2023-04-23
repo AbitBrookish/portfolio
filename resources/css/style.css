@@ -25,9 +25,6 @@ a {
   text-decoration: none;
   color: #c66f1b;
 }
-a:hover, a:active {
-  color: #169b99;
-}
 
 /* FUTURE: bg video with grayscale or blend */
 .hero {
@@ -63,6 +60,13 @@ a:hover, a:active {
   border: 2px solid #169c99;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+}
+#resume-btn:hover,
+#resume-btn:active {
+  background-color: #c66f1b;
+  color: #020202;
+  font-weight: 700;
+  transition: all 300ms ease-in-out;
 }
 
 /* main */

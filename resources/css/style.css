@@ -63,9 +63,9 @@ a {
 }
 #resume-btn:hover,
 #resume-btn:active {
-  background-color: #c66f1b;
-  color: #020202;
-  font-weight: 700;
+  border: 1px solid #c66f1b;
+  font-weight: 600;
+  box-shadow: 0 2px 8px 2px #169b99;
   transition: all 300ms ease-in-out;
 }
 
@@ -136,12 +136,22 @@ main {
 
 .container__social {
   position: absolute;
-  border: 1px solid;
+  right: 0.3rem;
+  bottom: 5rem;
+  /* border: 1px solid; */
+
 }
 
 #socials {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socials__link {
+  margin: 0.3rem;
+  padding: 0.25rem;
 }
 
 .fa-github {
@@ -160,6 +170,13 @@ main {
   color: #169b99;
 }
 
+.socials__link:hover, .socials__link:active {
+  background-color: #020202;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  box-shadow: 0 2px 8px 2px #169b99;
+  transition: all 300ms ease-in-out;
+}
 
 
 

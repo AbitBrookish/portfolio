@@ -46,6 +46,8 @@ a {
   filter: opacity(0.03);
 }
 
+
+
 /* header */
 #header {
   height: 5.125rem;
@@ -68,6 +70,11 @@ a {
   box-shadow: 0 2px 8px 2px #169b99;
   transition: all 300ms ease-in-out;
 }
+
+
+
+
+
 
 /* main */
 main {
@@ -138,8 +145,6 @@ main {
   position: absolute;
   right: 0.3rem;
   bottom: 5rem;
-  /* border: 1px solid; */
-
 }
 
 #socials {
@@ -177,6 +182,8 @@ main {
   box-shadow: 0 2px 8px 2px #169b99;
   transition: all 300ms ease-in-out;
 }
+
+
 
 
 

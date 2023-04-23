@@ -18,8 +18,16 @@ body {
   color: #c66f1b;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+a {
+  text-decoration: none;
+  color: #c66f1b;
+}
+a:hover, a:active {
+  color: #169b99;
 }
 
 /* FUTURE: bg video with grayscale or blend */
@@ -42,14 +50,33 @@ body {
   filter: opacity(0.03);
 }
 
+/* header */
 #header {
-  
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
+#resume-btn {
+  margin-right: 3rem;
+  color: #169c99;
+  border: 2px solid #169c99;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* main */
 main {
   flex: 1;
 }
 
-#footer {
+#img__main {
+  width: 500px;
+}
 
+
+/* footer */
+#footer {
+ height: 3rem;
 }

@@ -1,0 +1,25 @@
+.imglist__item img {
+  width: 10rem;
+  border: 1px solid;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container__skills__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

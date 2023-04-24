@@ -1,0 +1,92 @@
+li {
+  list-style: none;
+}
+
+.container__projects {
+  height: 100%;
+}
+
+.container__projects__boxholder {
+  min-width: 987px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.projects__box {
+  /* border: 1px solid; */
+  width: 200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__box__img-container {
+  /* border: 1px solid; */
+  height: 50%;
+  width: 100%;
+}
+
+.box1 {
+  background-image: url('/resources/media/images/Screen\ Shot\ 2023-04-23\ at\ 5.21.02\ PM.png');
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  background-image: url(/resources/media/images/Screen\ Shot\ 2023-04-24\ at\ 6.51.07\ AM.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url(/resources/media/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box4 {
+  background-image: url(/resources/media/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects__box__info {
+  /* border: 1px solid; */
+  height: 50%;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.box__info_p {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.box__info__links {
+  /* border: 1px solid; */
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.prolink {
+  color: #c66f1b;
+}
+
+.bottom {
+margin: auto 0 0;
+}

@@ -15,7 +15,6 @@ li {
 }
 
 .projects__box {
-  /* border: 1px solid; */
   width: 200px;
   height: 500px;
   display: flex;
@@ -23,9 +22,12 @@ li {
 }
 
 .projects__box__img-container {
-  /* border: 1px solid; */
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
   height: 50%;
   width: 100%;
+  filter: opacity(0.5);
 }
 
 .box1 {
@@ -57,7 +59,6 @@ li {
 }
 
 .projects__box__info {
-  /* border: 1px solid; */
   height: 50%;
   text-align: center;
   font-size: 1.25rem;
@@ -67,6 +68,8 @@ li {
 .box__info_p {
   border-top: 1px solid;
   border-bottom: 1px solid;
+  /* border-right: 1px solid; */
+  /* border-left: 1px solid; */
   height: 75%;
   display: flex;
   justify-content: center;
@@ -75,7 +78,6 @@ li {
 }
 
 .box__info__links {
-  /* border: 1px solid; */
   height: 25%;
   display: flex;
   justify-content: center;
@@ -85,6 +87,14 @@ li {
 
 .prolink {
   color: #c66f1b;
+}
+.prolink:hover,
+.prolink:active {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  box-shadow: 0 2px 8px 2px #169b99;
+  transition: all 300ms ease-in-out;
 }
 
 .bottom {

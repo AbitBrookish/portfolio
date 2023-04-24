@@ -23,6 +23,7 @@ li {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  margin-left: 6rem;
 }
 
 #skills__header {

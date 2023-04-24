@@ -31,28 +31,28 @@ li {
 }
 
 .box1 {
-  background-image: url('/resources/media/images/Screen\ Shot\ 2023-04-23\ at\ 5.21.02\ PM.png');
+  background-image: url('../resources/media/images/Screen\ Shot\ 2023-04-23\ at\ 5.21.02\ PM.png');
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box2 {
-  background-image: url(/resources/media/images/Screen\ Shot\ 2023-04-24\ at\ 6.51.07\ AM.png);
+  background-image: url('../resources/media/images/Screen\ Shot\ 2023-04-24\ at\ 6.51.07\ AM.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .box3 {
-  background-image: url(/resources/media/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+  background-image: url('/..resources/media/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box4 {
-  background-image: url(/resources/media/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+  background-image: url('../resources/media/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
